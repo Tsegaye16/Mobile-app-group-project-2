@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class PricePage extends StatelessWidget {
   final String foodName;
 
+  
   PricePage(this.foodName);
 
   @override
