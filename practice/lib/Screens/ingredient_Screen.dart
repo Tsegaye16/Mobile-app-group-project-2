@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class IngredientPage extends StatelessWidget {
   final String foodName;
 
+  
   IngredientPage(this.foodName);
 
   List<String> getIngredients(String foodName) {
