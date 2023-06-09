@@ -115,6 +115,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+<<<<<<< HEAD
   nested:
     dependency: transitive
     description:
@@ -123,6 +124,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
+=======
+>>>>>>> 42c77053cd2fd221e52ccd2e96391fc843dcc7ef
   path:
     dependency: transitive
     description:
@@ -131,6 +134,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+<<<<<<< HEAD
   provider:
     dependency: "direct main"
     description:
@@ -139,6 +143,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.5"
+=======
+>>>>>>> 42c77053cd2fd221e52ccd2e96391fc843dcc7ef
   sky_engine:
     dependency: transitive
     description: flutter
@@ -201,5 +207,9 @@ packages:
     source: hosted
     version: "2.1.4"
 sdks:
+<<<<<<< HEAD
   dart: ">=3.0.0 <4.0.0"
   flutter: ">=1.16.0"
+=======
+  dart: ">=3.0.0-0 <4.0.0"
+>>>>>>> 42c77053cd2fd221e52ccd2e96391fc843dcc7ef
