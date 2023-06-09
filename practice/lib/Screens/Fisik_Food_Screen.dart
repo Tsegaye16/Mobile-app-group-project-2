@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../data_lists/fisik_food_list.dart';
-import '../main.dart';
 import 'Food_Detail_Screen.dart';
 import 'ingredient_Screen.dart';
 
@@ -10,7 +9,6 @@ class SlowFoodPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> imageUrls = SlowFoodData.foodNames.map((foodName) {
-      final encodedFoodName = Uri.encodeComponent(foodName);
       return 'assets/${foodName.trim()}.jpg';
     }).toList();
 
@@ -90,7 +88,7 @@ class SlowFoodPage extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                           builder: (context) =>
-                              IngredientPage('$foodName የሚያካትታቸው'),
+                              IngredientPage('$foodName'),
                         ),
                       );
                     },

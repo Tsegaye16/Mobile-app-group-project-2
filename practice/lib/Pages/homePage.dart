@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:practice/main.dart';
 
 import '../Screens/Fisik_Food_Screen.dart';
 import '../Screens/fast_Food_Screen.dart';

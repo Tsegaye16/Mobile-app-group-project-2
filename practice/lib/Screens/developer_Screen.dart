@@ -30,7 +30,6 @@ class DeveloperPage extends StatelessWidget {
         itemBuilder: (context, index) {
           final developerName = developerNames[index];
           final imageUrl = imageUrls[index];
-          final imageName = developerName.toLowerCase().replaceAll(' ', '_');
 
           return Padding(
             padding: EdgeInsets.all(16.0),

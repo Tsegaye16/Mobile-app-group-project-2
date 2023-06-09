@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../Screens/about_Screen.dart';
 import '../Screens/developer_Screen.dart';
-import '../main.dart';
 
 class DrawerWidget extends StatelessWidget {
   @override

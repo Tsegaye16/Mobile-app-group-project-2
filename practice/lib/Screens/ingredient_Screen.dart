@@ -88,7 +88,7 @@ class IngredientPage extends StatelessWidget {
 
       case 'ዱለት':
         return [
-          'ጨንጓራ',
+          'ጨጓራ',
           'ስጋ',
           'እንጀራ',
           'ሚጥሚጣ',
@@ -118,6 +118,7 @@ class IngredientPage extends StatelessWidget {
         return [
           'ቲማቲም',
           'እንጀራ',
+          'ቃሪያ',
         ];
 
       case 'የጾም ፓስታ':
@@ -140,7 +141,7 @@ class IngredientPage extends StatelessWidget {
           'ቃሪያ',
         ];
       default:
-        return [];
+        return ['already obvious'];
     }
   }
 

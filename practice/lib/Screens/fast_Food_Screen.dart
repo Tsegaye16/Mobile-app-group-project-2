@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../data_lists/fast_food_list.dart';
-import '../main.dart';
 import 'Food_Detail_Screen.dart';
 import 'ingredient_Screen.dart';
 
@@ -87,7 +86,7 @@ class FastFoodPage extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                           builder: (context) =>
-                              IngredientPage('$foodName የሚያካትታቸው'),
+                              IngredientPage('$foodName'),
                         ),
                       );
                     },
